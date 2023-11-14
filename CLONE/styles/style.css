@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    background-image: url(../assets/fundo1.jpg);
+    font-family: 'Poppins', sans-serif;   
+}
+
+.cabecalho-menu {
+    padding: 30px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+}
+
+.cabecalho-menu-link {
+    text-decoration: overline;
+    color: #CAFFCC;
+    font-size: 20px;
+    font-weight: 600;
+} 
+.cabecalho-menu-link:hover {
+    color: red;
+    transform: scale(1.08, 1.08);
+}
+
+.apresentacao {
+    color: #CAFFCC;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: rem;
+}
+
+.titulo-destaque {
+    text-align: center;
+    font-size: 35px;
+    color:rgb(131,58,180);
+}
+
+.apresentacao-conteudo{
+    font-size: 22px;
+    color: white;
+}
+
+.apresentacao-conteudo {
+    border-color:white;
+    border: 10px;
+    border-style: double;
+    border-radius: 20px;
+    width: 45%;
+    margin: 60px;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.apresentacao-conteudo:hover {
+    border-color: blue;
+    transform: scale(1.08, 1.08);
+}
+
+.apresentacao-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+
+.apresentacao-links-sociais {
+    display: flex;
+    color:#73578D;
+    width: 50%; ;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+
+    border: 2px solid #73578D;
+    text-align: center;
+    border-radius: 0.5rem;
+    padding: 1rem 0;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.apresentacao-links-sociais:hover {
+    background: white;
+}
+
+.apresentacao-imagem {
+    width: 25%;
+    height: 25%;
+    border-radius: 20px;
+    border: 10px;
+    border-style: double;
+    margin:60px ;
+}
+.apresentacao-imagem:hover {
+    border-color: red;
+    transform: scale(1.08, 1.08);
+}
+
+
+.rodape {
+    color: white;
+    text-align: center;
+}
+
