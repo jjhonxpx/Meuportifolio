@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="styles/contato.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+        
+        <title>Contato</title>
+    </head>
+
+    <body>
+
+        <header class="cabecalho">
+            <nav class="cabecalho-menu gradiente">
+                <a class="cabecalho-menu-link" href="index.html">Home</a>
+                <a class="cabecalho-menu-link" href="sobremim.html">Sobre mim</a>
+                <a class="cabecalho-menu-link" href="contatos.html">Contato</a>
+            </nav>
+        </header>
+
+        <div class="form">
+            <h1>Formulário de Contato</h1>
+
+            <form action="enviar_email.php" method="post">
+                <label for="nome">Nome:</label><br>
+                <input type="text" id="nome" name="nome" required placeholder="Insira seu nome"><br>
+
+                <label for="email">E-mail:</label><br>
+                <input type="email" id="email" name="email" required placeholder="Insira seu e-mail"><br>
+
+                <label for="telefone">Telefone:</label><br>
+                <input type="tel" id="telefone" name="telefone" required placeholder="(XX) XXXXX-XXXX"><br>
+
+                <label for="mensagem">Mensagem:</label><br>
+                <textarea id="mensagem" name="mensagem" rows="4" cols="50" required placeholder="Insira sua mensagem..."></textarea><br>
+
+                <input id="button" type="submit" value="Enviar">
+            </form>
+        <div>
+
+        
+
+    </body>
+</html>
